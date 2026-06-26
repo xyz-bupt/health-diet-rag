@@ -1,0 +1,282 @@
+[
+  {
+    "name": "鸡胸肉",
+    "category": "肉禽蛋",
+    "tags": ["高蛋白", "低脂", "减脂友好", "增肌"],
+    "nutrition_per_100g": {
+      "calories_kcal": 133,
+      "protein_g": 31.0,
+      "carbs_g": 0,
+      "fat_g": 1.2
+    },
+    "description": "经典低脂高蛋白肉类，饱腹感强，是健身餐和减脂餐的首选。注意烹饪时少油少盐，避免油炸破坏营养结构。",
+    "suitable_for": ["lose_weight", "gain_muscle"],
+    "common_uses": ["水煮", "煎烤", "沙拉", "便当"]
+  },
+  {
+    "name": "三文鱼",
+    "category": "水产",
+    "tags": ["高蛋白", "Omega-3", "健脑", "护心"],
+    "nutrition_per_100g": {
+      "calories_kcal": 208,
+      "protein_g": 20.0,
+      "carbs_g": 0,
+      "fat_g": 13.0
+    },
+    "description": "富含 Omega-3 多不饱和脂肪酸（EPA/DHA），有助于降低心血管疾病风险、改善脑功能。脂肪含量较高但属于优质脂肪。",
+    "suitable_for": ["maintain", "gain_muscle"],
+    "common_uses": ["刺身", "煎制", "烤制", "寿司"]
+  },
+  {
+    "name": "鸡蛋",
+    "category": "肉禽蛋",
+    "tags": ["完全蛋白", "早餐", "平价", "增肌"],
+    "nutrition_per_100g": {
+      "calories_kcal": 144,
+      "protein_g": 13.3,
+      "carbs_g": 1.5,
+      "fat_g": 8.8
+    },
+    "description": "蛋白质吸收率最高的食物之一，氨基酸构成最接近人体需求。蛋黄富含卵磷脂和维生素 A、D。每天 1-2 个为宜。",
+    "suitable_for": ["lose_weight", "maintain", "gain_muscle"],
+    "common_uses": ["水煮蛋", "煎蛋", "蒸蛋", "炒蛋"]
+  },
+  {
+    "name": "糙米",
+    "category": "主食谷物",
+    "tags": ["全谷物", "高纤维", "低GI", "B族维生素"],
+    "nutrition_per_100g": {
+      "calories_kcal": 348,
+      "protein_g": 7.4,
+      "carbs_g": 76.0,
+      "fat_g": 2.7
+    },
+    "description": "保留了米糠和胚芽的全谷物，GI 值约 50（白米约 70），升糖慢、饱腹感强。富含 B 族维生素和膳食纤维，适合控糖人群。",
+    "suitable_for": ["lose_weight", "maintain"],
+    "common_uses": ["主食", "饭团", "沙拉底"]
+  },
+  {
+    "name": "藜麦",
+    "category": "主食谷物",
+    "tags": ["完全蛋白", "无麸质", "低GI", "超级食物"],
+    "nutrition_per_100g": {
+      "calories_kcal": 368,
+      "protein_g": 14.0,
+      "carbs_g": 64.0,
+      "fat_g": 6.0
+    },
+    "description": "罕见的植物性完全蛋白来源（含全部 9 种必需氨基酸），GI 值约 35。蛋白质含量高于大多数谷物，无麸质适合敏感人群。",
+    "suitable_for": ["lose_weight", "gain_muscle", "maintain"],
+    "common_uses": ["沙拉", "主食替代", "粥"]
+  },
+  {
+    "name": "西兰花",
+    "category": "蔬菜",
+    "tags": ["高纤维", "抗氧化", "维生素C", "低热量"],
+    "nutrition_per_100g": {
+      "calories_kcal": 34,
+      "protein_g": 4.1,
+      "carbs_g": 4.3,
+      "fat_g": 0.6
+    },
+    "description": "十字花科蔬菜代表，富含硫代葡萄糖苷（抗癌活性成分）和维生素 C。热量极低，饱腹感强，是减脂期必备蔬菜。",
+    "suitable_for": ["lose_weight", "maintain"],
+    "common_uses": ["清炒", "水煮", "沙拉", "配菜"]
+  },
+  {
+    "name": "牛油果",
+    "category": "水果",
+    "tags": ["单不饱和脂肪", "钾", "护心", "高热量"],
+    "nutrition_per_100g": {
+      "calories_kcal": 160,
+      "protein_g": 2.0,
+      "carbs_g": 8.5,
+      "fat_g": 14.7
+    },
+    "description": "水果中罕见的低糖高脂食物，脂肪以单不饱和脂肪酸为主（油酸），有助于降低坏胆固醇。富含钾，含纤维量高。",
+    "suitable_for": ["maintain", "gain_muscle"],
+    "common_uses": ["沙拉", "三明治", "奶昔", "刺身"]
+  },
+  {
+    "name": "希腊酸奶",
+    "category": "奶制品",
+    "tags": ["高蛋白", "益生菌", "低糖", "早餐"],
+    "nutrition_per_100g": {
+      "calories_kcal": 97,
+      "protein_g": 9.0,
+      "carbs_g": 4.0,
+      "fat_g": 5.0
+    },
+    "description": "普通酸奶滤掉乳清后的浓缩版，蛋白质含量是普通酸奶的 2-3 倍。含活性益生菌，有助于肠道健康。注意选无糖版本。",
+    "suitable_for": ["lose_weight", "gain_muscle"],
+    "common_uses": ["早餐", "水果搭配", "沙拉酱替代"]
+  },
+  {
+    "name": "红薯",
+    "category": "主食谷物",
+    "tags": ["β-胡萝卜素", "高纤维", "低GI", "饱腹"],
+    "nutrition_per_100g": {
+      "calories_kcal": 86,
+      "protein_g": 1.6,
+      "carbs_g": 20.0,
+      "fat_g": 0.1
+    },
+    "description": "富含 β-胡萝卜素（维生素 A 前体）和膳食纤维，GI 值约 63（蒸制），低于白米饭。饱腹感强，是优质主食替代。",
+    "suitable_for": ["lose_weight", "maintain"],
+    "common_uses": ["蒸制", "烤制", "粥", "便当"]
+  },
+  {
+    "name": "杏仁",
+    "category": "坚果",
+    "tags": ["健康脂肪", "维生素E", "镁", "加餐"],
+    "nutrition_per_100g": {
+      "calories_kcal": 579,
+      "protein_g": 21.0,
+      "carbs_g": 22.0,
+      "fat_g": 50.0
+    },
+    "description": "坚果中营养密度最高的之一，富含维生素 E 和镁。脂肪含量高需控制量，每日 20-30g（约 25 颗）即可。",
+    "suitable_for": ["maintain", "gain_muscle"],
+    "common_uses": ["加餐", "沙拉点缀", "燕麦"]
+  },
+  {
+    "name": "豆腐",
+    "category": "豆制品",
+    "tags": ["植物蛋白", "低脂", "钙", "素食"],
+    "nutrition_per_100g": {
+      "calories_kcal": 81,
+      "protein_g": 8.1,
+      "carbs_g": 1.9,
+      "fat_g": 4.8
+    },
+    "description": "大豆制品的优质蛋白来源，含全部必需氨基酸。富含钙和异黄酮。低热量低脂肪，是素食者和减脂人群的好选择。",
+    "suitable_for": ["lose_weight", "maintain", "gain_muscle"],
+    "common_uses": ["炖煮", "煎制", "沙拉", "汤"]
+  },
+  {
+    "name": "虾仁",
+    "category": "水产",
+    "tags": ["高蛋白", "极低脂", "锌", "硒"],
+    "nutrition_per_100g": {
+      "calories_kcal": 99,
+      "protein_g": 24.0,
+      "carbs_g": 0.2,
+      "fat_g": 0.3
+    },
+    "description": "蛋白质含量极高（约 24%），脂肪几乎可以忽略。富含锌、硒等微量元素，是减脂增肌的理想蛋白来源。",
+    "suitable_for": ["lose_weight", "gain_muscle"],
+    "common_uses": ["水煮", "清炒", "沙拉", "烧烤"]
+  },
+  {
+    "name": "菠菜",
+    "category": "蔬菜",
+    "tags": ["铁", "叶酸", "维生素K", "低热量"],
+    "nutrition_per_100g": {
+      "calories_kcal": 23,
+      "protein_g": 2.9,
+      "carbs_g": 3.6,
+      "fat_g": 0.4
+    },
+    "description": "绿叶菜营养密度标杆，富含铁（非血红素铁，吸收率较低，配维生素 C 食物同吃可提升）、叶酸和维生素 K。",
+    "suitable_for": ["lose_weight", "maintain"],
+    "common_uses": ["清炒", "凉拌", "汤", "沙拉"]
+  },
+  {
+    "name": "燕麦",
+    "category": "主食谷物",
+    "tags": ["β-葡聚糖", "可溶性纤维", "降胆固醇", "低GI"],
+    "nutrition_per_100g": {
+      "calories_kcal": 389,
+      "protein_g": 16.9,
+      "carbs_g": 66.0,
+      "fat_g": 6.9
+    },
+    "description": "含可溶性纤维 β-葡聚糖，有助于降低总胆固醇和 LDL。GI 值约 55，升糖慢饱腹感强，是经典健康早餐主食。",
+    "suitable_for": ["lose_weight", "maintain"],
+    "common_uses": ["早餐粥", "烘焙", "能量棒"]
+  },
+  {
+    "name": "瘦牛肉",
+    "category": "肉禽蛋",
+    "tags": ["高蛋白", "铁", "锌", "增肌"],
+    "nutrition_per_100g": {
+      "calories_kcal": 175,
+      "protein_g": 26.0,
+      "carbs_g": 0,
+      "fat_g": 7.0
+    },
+    "description": "优质血红素铁来源（吸收率远高于植物铁），富含锌和维生素 B12。增肌期优选红肉，注意选瘦部位（如里脊、外脊）。",
+    "suitable_for": ["gain_muscle", "maintain"],
+    "common_uses": ["煎牛排", "炖煮", "炒菜", "肉酱"]
+  },
+  {
+    "name": "蓝莓",
+    "category": "水果",
+    "tags": ["抗氧化", "花青素", "低糖", "护眼"],
+    "nutrition_per_100g": {
+      "calories_kcal": 57,
+      "protein_g": 0.7,
+      "carbs_g": 14.0,
+      "fat_g": 0.3
+    },
+    "description": "抗氧化能力最强的水果之一（ORAC 值高），富含花青素，对眼脑健康有益。糖分较低，适合作为加餐或早餐搭配。",
+    "suitable_for": ["lose_weight", "maintain"],
+    "common_uses": ["早餐搭配", "加餐", "奶昔", "沙拉"]
+  },
+  {
+    "name": "鹰嘴豆",
+    "category": "豆制品",
+    "tags": ["植物蛋白", "高纤维", "低GI", "素食"],
+    "nutrition_per_100g": {
+      "calories_kcal": 364,
+      "protein_g": 19.0,
+      "carbs_g": 61.0,
+      "fat_g": 6.0
+    },
+    "description": "豆类中蛋白质含量领先，纤维丰富，GI 值低。可做鹰嘴豆泥（hummus）替代高脂酱料，素食者的重要蛋白来源。",
+    "suitable_for": ["lose_weight", "maintain", "gain_muscle"],
+    "common_uses": ["鹰嘴豆泥", "沙拉", "炖煮", "烤制"]
+  },
+  {
+    "name": "番茄",
+    "category": "蔬菜",
+    "tags": ["番茄红素", "低热量", "维生素C", "抗氧化"],
+    "nutrition_per_100g": {
+      "calories_kcal": 18,
+      "protein_g": 0.9,
+      "carbs_g": 4.0,
+      "fat_g": 0.2
+    },
+    "description": "富含番茄红素（加热后生物利用率提升），是少数加热后营养不降反升的蔬菜。低热量，适合各种饮食模式。",
+    "suitable_for": ["lose_weight", "maintain"],
+    "common_uses": ["生食", "炒蛋", "汤", "酱料"]
+  },
+  {
+    "name": "牛里脊",
+    "category": "肉禽蛋",
+    "tags": ["高蛋白", "低脂红肉", "铁", "增肌"],
+    "nutrition_per_100g": {
+      "calories_kcal": 135,
+      "protein_g": 22.0,
+      "carbs_g": 0,
+      "fat_g": 5.0
+    },
+    "description": "牛肉中最瘦的部位之一，蛋白质含量高脂肪低，富含血红素铁。比一般瘦牛肉更嫩，适合快速煎炒。",
+    "suitable_for": ["lose_weight", "gain_muscle"],
+    "common_uses": ["快炒", "煎制", "涮锅", "切丝"]
+  },
+  {
+    "name": "玉米",
+    "category": "主食谷物",
+    "tags": ["全谷物", "叶黄素", "纤维", "饱腹"],
+    "nutrition_per_100g": {
+      "calories_kcal": 86,
+      "protein_g": 3.2,
+      "carbs_g": 19.0,
+      "fat_g": 1.2
+    },
+    "description": "全谷物主食，富含叶黄素和玉米黄质（护眼）。热量比米饭低，饱腹感强，但 GI 值中等，糖友需控量。",
+    "suitable_for": ["maintain"],
+    "common_uses": ["蒸煮", "沙拉", "粥", "炖汤"]
+  }
+]

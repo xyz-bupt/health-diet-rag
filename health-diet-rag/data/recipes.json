@@ -1,0 +1,179 @@
+[
+  {
+    "name": "鸡胸肉牛油果沙拉",
+    "tags": ["高蛋白", "低GI", "减脂", "无烹饪"],
+    "meal_type": "午餐",
+    "prep_time_min": 15,
+    "calories_per_serving": 420,
+    "macros": {"protein_g": 38, "carbs_g": 18, "fat_g": 22},
+    "ingredients": ["鸡胸肉 150g", "牛油果 半个", "混合生菜 100g", "圣女果 80g", "橄榄油 1茶匙", "柠檬汁 适量"],
+    "steps": [
+      "鸡胸肉切丁，少许盐和黑胡椒腌制 10 分钟",
+      "不粘锅小火煎熟鸡胸肉，无需加油",
+      "牛油果切片，圣女果对切",
+      "所有食材拌入生菜，淋橄榄油和柠檬汁"
+    ],
+    "description": "高蛋白低 GI 的减脂经典组合。鸡胸肉提供完全蛋白，牛油果提供单不饱和脂肪酸增加饱腹感，整体营养均衡。",
+    "suitable_for": ["lose_weight", "gain_muscle"]
+  },
+  {
+    "name": "三文鱼藜麦碗",
+    "tags": ["Omega-3", "完全蛋白", "增肌", "快手"],
+    "meal_type": "晚餐",
+    "prep_time_min": 25,
+    "calories_per_serving": 580,
+    "macros": {"protein_g": 42, "carbs_g": 45, "fat_g": 22},
+    "ingredients": ["三文鱼 150g", "藜麦 60g（生重）", "西兰花 100g", "玉米粒 50g", "橄榄油 1茶匙", "盐少许"],
+    "steps": [
+      "藜麦水煮 15 分钟沥干",
+      "三文鱼皮面朝下煎至酥脆，翻面再煎 3 分钟",
+      "西兰花焯水 2 分钟",
+      "所有食材拼碗，淋橄榄油撒盐"
+    ],
+    "description": "Omega-3 与完全蛋白的双重补充。藜麦含全部必需氨基酸，与三文鱼搭配是运动后恢复的理想餐。",
+    "suitable_for": ["gain_muscle", "maintain"]
+  },
+  {
+    "name": "希腊酸奶蓝莓燕麦杯",
+    "tags": ["高蛋白", "纤维", "抗氧化", "免煮"],
+    "meal_type": "早餐",
+    "prep_time_min": 5,
+    "calories_per_serving": 380,
+    "macros": {"protein_g": 25, "carbs_g": 48, "fat_g": 9},
+    "ingredients": ["希腊酸奶 200g", "即食燕麦 40g", "蓝莓 80g", "蜂蜜 1茶匙（可选）", "奇亚籽 1汤匙"],
+    "steps": [
+      "燕麦和奇亚籽混合，加 50ml 牛奶或水",
+      "冰箱冷藏一晚（或 30 分钟以上）",
+      "杯中按层铺：燕麦 → 酸奶 → 蓝莓",
+      "淋少许蜂蜜"
+    ],
+    "description": "隔夜燕麦的蛋白质加强版。希腊酸奶提供 18g 蛋白，奇亚籽增加 Omega-3，蓝莓提供抗氧化物。",
+    "suitable_for": ["lose_weight", "maintain"]
+  },
+  {
+    "name": "虾仁炒蛋糙米饭",
+    "tags": ["高蛋白", "低脂", "低GI", "饱腹"],
+    "meal_type": "午餐",
+    "prep_time_min": 20,
+    "calories_per_serving": 480,
+    "macros": {"protein_g": 35, "carbs_g": 50, "fat_g": 12},
+    "ingredients": ["虾仁 120g", "鸡蛋 2 个", "糙米饭 150g（熟）", "葱花 少许", "橄榄油 1茶匙", "生抽少许"],
+    "steps": [
+      "虾仁去虾线，少许盐和料酒腌制",
+      "鸡蛋打散加葱花",
+      "热锅冷油先炒蛋液至半凝固盛出",
+      "再炒虾仁至变色，倒回鸡蛋，淋生抽",
+      "搭配糙米饭食用"
+    ],
+    "description": "海鲜与蛋的双重优质蛋白。糙米替代白米饭显著降低 GI 值，整餐饱腹感强且不易犯困。",
+    "suitable_for": ["lose_weight", "gain_muscle"]
+  },
+  {
+    "name": "豆腐西兰花低脂炒",
+    "tags": ["植物蛋白", "素食", "低脂", "钙"],
+    "meal_type": "晚餐",
+    "prep_time_min": 15,
+    "calories_per_serving": 280,
+    "macros": {"protein_g": 22, "carbs_g": 14, "fat_g": 14},
+    "ingredients": ["北豆腐 200g", "西兰花 150g", "胡萝卜片 50g", "蒜末 适量", "低钠生抽 1汤匙", "香油几滴"],
+    "steps": [
+      "豆腐切方块，焯水去豆腥",
+      "西兰花掰小朵，焯水 1 分钟",
+      "热锅少油爆香蒜末，下胡萝卜炒软",
+      "下豆腐和西兰花翻炒，淋生抽",
+      "出锅前滴几滴香油"
+    ],
+    "description": "纯植物蛋白搭配。豆腐提供完全植物蛋白，西兰花补维生素 C 和硫代葡萄糖苷，整体脂肪低纤维高。",
+    "suitable_for": ["lose_weight", "maintain"]
+  },
+  {
+    "name": "瘦牛肉红薯能量碗",
+    "tags": ["高蛋白", "复合碳水", "增肌", "铁"],
+    "meal_type": "午餐",
+    "prep_time_min": 30,
+    "calories_per_serving": 620,
+    "macros": {"protein_g": 42, "carbs_g": 55, "fat_g": 18},
+    "ingredients": ["瘦牛里脊 150g", "红薯 200g", "菠菜 100g", "洋葱 半个", "橄榄油 1茶匙", "黑胡椒和盐"],
+    "steps": [
+      "红薯切块蒸熟",
+      "牛肉切条，黑胡椒和少许生抽腌制",
+      "热锅煎洋葱至透明，加牛肉快炒",
+      "菠菜最后下锅断生",
+      "搭配红薯一起装盘"
+    ],
+    "description": "增肌期高热量高蛋白组合。瘦牛肉提供血红素铁促氧气运输，红薯提供慢吸收碳水，训练后恢复优选。",
+    "suitable_for": ["gain_muscle", "maintain"]
+  },
+  {
+    "name": "番茄鸡蛋燕麦粥",
+    "tags": ["低热量", "纤维", "高蛋白", "暖胃"],
+    "meal_type": "早餐",
+    "prep_time_min": 15,
+    "calories_per_serving": 320,
+    "macros": {"protein_g": 18, "carbs_g": 38, "fat_g": 10},
+    "ingredients": ["燕麦片 50g", "鸡蛋 1 个", "番茄 1 个", "虾皮 少许", "盐适量", "香油几滴"],
+    "steps": [
+      "番茄烫水去皮切丁",
+      "锅加水煮开，下番茄丁煮软",
+      "下燕麦煮 5 分钟至浓稠",
+      "打入鸡蛋花，撒虾皮",
+      "盐和香油调味"
+    ],
+    "description": "咸口燕麦粥，比甜口燕麦更适合中国胃。番茄提供维生素 C 帮助吸收燕麦的铁，鸡蛋增加蛋白质。",
+    "suitable_for": ["lose_weight", "maintain"]
+  },
+  {
+    "name": "鹰嘴豆牛油果全麦三明治",
+    "tags": ["植物蛋白", "纤维", "低GI", "便携"],
+    "meal_type": "午餐",
+    "prep_time_min": 15,
+    "calories_per_serving": 450,
+    "macros": {"protein_g": 20, "carbs_g": 50, "fat_g": 18},
+    "ingredients": ["全麦面包 2 片", "鹰嘴豆 80g（熟）", "牛油果 半个", "生菜 2 片", "柠檬汁和盐", "黑胡椒"],
+    "steps": [
+      "鹰嘴豆粗压成泥，加柠檬汁和盐",
+      "牛油果切片",
+      "面包烤至微焦",
+      "依次铺生菜、鹰嘴豆泥、牛油果",
+      "撒黑胡椒，盖另一片面包"
+    ],
+    "description": "纯素高蛋白三明治。鹰嘴豆泥替代蛋黄酱降低脂肪，全麦面包提供纤维，适合上班族便携午餐。",
+    "suitable_for": ["lose_weight", "maintain"]
+  },
+  {
+    "name": "杏仁蓝莓燕麦能量棒",
+    "tags": ["加餐", "抗氧化", "纤维", "无添加糖"],
+    "meal_type": "加餐",
+    "prep_time_min": 30,
+    "calories_per_serving": 180,
+    "macros": {"protein_g": 5, "carbs_g": 22, "fat_g": 9},
+    "ingredients": ["燕麦 100g", "杏仁 50g", "蓝莓干 40g", "蜂蜜 2 汤匙", "椰子油 1 汤匙", "奇亚籽 1 汤匙"],
+    "steps": [
+      "烤箱预热 170°C",
+      "所有干料混合",
+      "蜂蜜和椰子油微波融化倒入拌匀",
+      "铺烤盘压紧实，烤 20 分钟至金黄",
+      "冷却后切块保存"
+    ],
+    "description": "自制能量棒，无添加糖无防腐剂。训练前后或下午茶加餐，控制分量（1 块约 60g）即可。",
+    "suitable_for": ["maintain", "gain_muscle"]
+  },
+  {
+    "name": "番茄虾仁藜麦汤",
+    "tags": ["低热量", "高蛋白", "暖胃", "低脂"],
+    "meal_type": "晚餐",
+    "prep_time_min": 25,
+    "calories_per_serving": 340,
+    "macros": {"protein_g": 28, "carbs_g": 35, "fat_g": 8},
+    "ingredients": ["虾仁 100g", "藜麦 50g（生重）", "番茄 2 个", "洋葱 半个", "蒜末适量", "盐和黑胡椒"],
+    "steps": [
+      "番茄烫水去皮切碎",
+      "洋葱和蒜末炒香",
+      "下番茄煮出汁",
+      "加水煮开，下藜麦煮 15 分钟",
+      "最后下虾仁煮熟，调味"
+    ],
+    "description": "高蛋白低脂的暖胃汤品。番茄的酸味与虾仁的鲜味搭配，藜麦增加饱腹感，整体热量低蛋白高。",
+    "suitable_for": ["lose_weight", "maintain"]
+  }
+]

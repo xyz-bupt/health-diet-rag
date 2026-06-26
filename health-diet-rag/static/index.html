@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>健康饮食 RAG 助手</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>🥗 健康饮食 RAG 助手</h1>
+        <p class="subtitle">多 Agent 协作生成个性化饮食方案</p>
+    </header>
+
+    <main>
+        <!-- 左侧：表单 -->
+        <section class="form-panel">
+            <h2>📋 填写健康画像</h2>
+            <form id="profile-form">
+                <div class="form-row">
+                    <label>
+                        身高 (cm)
+                        <input type="number" name="height_cm" value="175" min="80" max="250" required>
+                    </label>
+                    <label>
+                        体重 (kg)
+                        <input type="number" name="weight_kg" value="70" min="20" max="300" required>
+                    </label>
+                </div>
+                <div class="form-row">
+                    <label>
+                        年龄
+                        <input type="number" name="age" value="28" min="10" max="120" required>
+                    </label>
+                    <label>
+                        性别
+                        <select name="gender">
+                            <option value="male">男</option>
+                            <option value="female">女</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="form-row">
+                    <label>
+                        活动量
+                        <select name="activity_level">
+                            <option value="sedentary">久坐</option>
+                            <option value="light">轻度</option>
+                            <option value="moderate" selected>中度</option>
+                            <option value="active">高度</option>
+                            <option value="very_active">极高</option>
+                        </select>
+                    </label>
+                    <label>
+                        目标
+                        <select name="goal">
+                            <option value="lose_weight">减脂</option>
+                            <option value="maintain" selected>维持</option>
+                            <option value="gain_muscle">增肌</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="actions">
+                    <button type="button" id="generate-btn" class="primary">
+                        ⚡ 流式生成（推荐）
+                    </button>
+                    <button type="button" id="generate-sync-btn" class="secondary">
+                        🔄 同步生成
+                    </button>
+                </div>
+
+                <div id="status" class="status"></div>
+            </form>
+        </section>
+
+        <!-- 右侧：结果展示 -->
+        <section class="result-panel">
+            <h2>📊 方案结果</h2>
+
+            <!-- 进度指示器 -->
+            <div id="progress" class="progress hidden">
+                <div class="step" data-step="health_node">
+                    <span class="dot"></span> 1. 健康评估
+                </div>
+                <div class="step" data-step="nutrition_node">
+                    <span class="dot"></span> 2. 营养规划
+                </div>
+                <div class="step" data-step="recipe_node">
+                    <span class="dot"></span> 3. 菜谱生成
+                </div>
+                <div class="step" data-step="exercise_node">
+                    <span class="dot"></span> 4. 运动建议
+                </div>
+                <div class="step" data-step="supervisor_node">
+                    <span class="dot"></span> 5. 整合方案
+                </div>
+            </div>
+
+            <!-- 结果容器 -->
+            <div id="result" class="result-content">
+                <p class="placeholder">提交表单后，结果会在这里依次显示...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Powered by FastAPI + LangGraph + ChromaDB · <a href="/docs" target="_blank">API 文档</a></p>
+    </footer>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

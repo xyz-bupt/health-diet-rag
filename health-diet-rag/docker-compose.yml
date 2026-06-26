@@ -1,0 +1,57 @@
+# =============================================================================
+# 健康饮食 RAG 助手 - 一键部署
+# =============================================================================
+# 启动：docker compose up -d
+# 停止：docker compose down
+# 看日志：docker compose logs -f app
+#
+# 安全说明：
+#   - 密钥从 .env 文件读取（env_file），不写入镜像
+#   - .env 已在 .gitignore 和 .dockerignore 中，不会提交也不会进镜像
+# =============================================================================
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: health-diet-rag:latest
+    container_name: health-diet-rag
+    restart: unless-stopped
+
+    # 端口映射
+    ports:
+      - "${HOST_PORT:-8000}:8000"
+
+    # 从 .env 注入环境变量（密钥在这里传给容器，但不会进镜像）
+    env_file:
+      - .env
+
+    # 额外环境变量（覆盖 .env 里的运行时配置）
+    environment:
+      - PYTHONUNBUFFERED=1
+
+    # 卷挂载：让 ChromaDB 索引在容器重建后还能保留
+    volumes:
+      - ./data:/app/data           # ChromaDB 持久化 + 数据文件
+      - app_cache:/tmp/healthcache  # 占位（未来挂载 Redis 卷）
+
+    # 健康检查（与 Dockerfile 里一致，compose 这边可以覆盖阈值）
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 60s   # 首次启动要建索引 + 下载 embedding 模型，给足时间
+
+    # 日志大小限制（防止日志撑爆磁盘）
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+# 命名卷定义
+volumes:
+  app_cache:
+    driver: local
